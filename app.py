@@ -13,6 +13,6 @@ def calculate():
     response = {
         'data': {},
         'message': '',
-        'statusCode': 200
+        'statusCode': 100
     }
     return jsonify(response)
